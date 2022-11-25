@@ -6,15 +6,17 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.6</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> <!-- 레파지토리에서 부모 검색 -->
 	</parent>
+	
+				
 	<groupId>com.bitacademy</groupId>
 	<artifactId>springboot-ex</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-ex</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>12</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
